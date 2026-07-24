@@ -7,7 +7,7 @@ import ConsentBanner from '../components/ConsentBanner.astro';
 
 interface Props { title?: string; description?: string; }
 const {
-  title = "Le Chasseur",
+  title = "Grenaille",
   description = "Dates d'ouverture et de fermeture, quotas, coûts et arrêtés de la chasse, agrégés et systématiquement sourcés."
 } = Astro.props;
 ---
@@ -133,19 +133,43 @@ const {
       .empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:1.6rem;color:var(--muted);}
       .empty strong{color:var(--ink);}
 
-      /* Bandeau d'espèces (fiche département) */
-      .especes-banner{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:4px;padding:1.2rem 0 1.6rem;border-bottom:1px solid var(--line);margin-bottom:1.4rem;}
-      .espece-btn{flex:none;width:76px;display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px 4px;background:transparent;border:1px solid transparent;border-radius:10px;color:var(--green-700);cursor:pointer;transition:background .12s ease,color .12s ease,border-color .12s ease;}
-      .espece-btn:hover{background:var(--green-50);border-color:var(--line);}
-      .espece-btn.active{background:var(--green-600);color:#fff;border-color:var(--green-600);}
-      .espece-btn-icon{width:36px;height:36px;display:flex;overflow:visible;}
-      .espece-btn-icon svg{width:100%;height:100%;}
-      .espece-btn[data-slug="faisan-commun"] .espece-btn-icon svg,
-      .espece-btn[data-slug="becasse-bois"] .espece-btn-icon svg,
-      .espece-btn[data-slug="grive-draine"] .espece-btn-icon svg,
-      .espece-btn[data-slug="lapin-garenne"] .espece-btn-icon svg,
-      .espece-btn[data-slug="tangue"] .espece-btn-icon svg{transform:scale(1.35);}
-      .espece-btn-nom{font-size:.68rem;line-height:1.2;text-align:center;color:inherit;}
+      /* Sélecteur d'espèces (fiche département) */
+      .selecteur-bloc{border-bottom:1px solid var(--line);margin-bottom:1.4rem;padding-bottom:1rem;}
+      .selecteur{display:flex;align-items:flex-start;gap:1.2rem;padding:1.2rem 0 0;}
+      .sel-tuiles{display:flex;gap:6px;flex:none;}
+      .sel-tuile{width:66px;display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px 4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--green-700);cursor:pointer;transition:background .12s ease,color .12s ease,border-color .12s ease;}
+      .sel-tuile:hover{background:var(--green-50);}
+      .sel-tuile.active{background:var(--green-600);color:#fff;border-color:var(--green-600);}
+      .sel-tuile-icon{width:34px;height:34px;display:flex;overflow:visible;}
+      .sel-tuile-icon svg{width:100%;height:100%;}
+      .sel-tuile[data-slug="faisan-commun"] .sel-tuile-icon svg,.sel-tuile[data-slug="lapin-garenne"] .sel-tuile-icon svg{transform:scale(1.3);}
+      .sel-tuile-nom{font-size:.68rem;line-height:1.15;text-align:center;color:inherit;}
+
+      .sel-recherche{position:relative;flex:1;min-width:220px;max-width:460px;}
+      .sel-champ{display:flex;align-items:center;height:44px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:0 .5rem 0 .85rem;}
+      .sel-champ:focus-within{border-color:var(--green-600);box-shadow:0 0 0 3px var(--green-50);}
+      .sel-loupe{color:var(--muted);flex:none;margin-right:.5rem;}
+      .sel-input{flex:1;border:none;background:transparent;font-size:1rem;color:var(--ink);outline:none;min-width:0;}
+      .sel-chevron{flex:none;display:grid;place-items:center;width:32px;height:32px;border:none;background:transparent;color:var(--green-700);cursor:pointer;border-radius:8px;}
+      .sel-chevron:hover{background:var(--green-50);}
+      .sel-menu{position:absolute;z-index:20;top:calc(100% + 6px);left:0;right:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 28px rgba(20,52,42,.14);max-height:320px;overflow-y:auto;padding:.4rem;}
+      .sel-menu[hidden],.sel-groupe[hidden],.sel-option[hidden],.sel-chips[hidden]{display:none;}
+      .sel-groupe-titre{margin:.5rem .6rem .2rem;font-size:.72rem;font-weight:600;color:var(--green-600);}
+      .sel-option{display:flex;align-items:center;gap:.5rem;padding:.5rem .6rem;border-radius:8px;cursor:pointer;font-size:.95rem;color:var(--ink);}
+      .sel-option:hover{background:var(--green-50);}
+      .sel-coche{color:var(--green-600);opacity:0;flex:none;}
+      .sel-option.selected{background:var(--green-50);}
+      .sel-option.selected .sel-coche{opacity:1;}
+
+      .sel-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:.9rem;}
+      .sel-chip{display:inline-flex;align-items:center;gap:5px;font-size:.8rem;background:var(--green-50);color:var(--green-700);border:1px solid transparent;border-radius:20px;padding:4px 10px;cursor:pointer;}
+      .sel-chip:hover{border-color:var(--green-600);}
+
+      @media (max-width:640px){
+        .selecteur{flex-direction:column;gap:.8rem;}
+        .sel-tuiles{flex-wrap:wrap;justify-content:center;width:100%;}
+        .sel-recherche{max-width:none;width:100%;}
+      }
 
       /* Prose (methodologie) */
       .prose{padding:2rem 0 3rem;max-width:70ch;}
@@ -183,7 +207,7 @@ const {
         <a href="/" class="site-logo">
           <img src="/logo-fauconnier-header.svg" alt="" class="site-logo-img" />
           <span class="site-logo-text">
-            <span class="site-logo-title">Le Chasseur</span>
+            <span class="site-logo-title">Grenaille</span>
             <span class="site-logo-sub">Actualité administrative</span>
           </span>
         </a>

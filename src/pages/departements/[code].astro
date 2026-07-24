@@ -83,7 +83,7 @@ if (periodes) {
 
 const especeParDepartement = new Map((periodes?.especes ?? []).map((e) => [e.slug, e]));
 
-interface EspeceBannerView { nom: string; slug: string | undefined; svg: string | null; }
+interface EspeceBannerView { nom: string; slug: string | undefined; svg: string | null; categorie: string; }
 interface EspeceRow { slug: string; titre: string; valeur: string; refs: number[]; }
 
 const especeViews: EspeceBannerView[] = [];
@@ -104,7 +104,7 @@ for (const e of especesDuTerritoire) {
   // Masque une espèce de montagne là où le département n'a pas d'arrêté la réglementant.
   if (slug && ESPECES_MONTAGNE.has(slug) && !especeParDepartement.get(slug)?.faits?.length) continue;
   const svg = slug ? icons[`../../icons/especes/${slug}.svg`] ?? null : null;
-  especeViews.push({ nom: e.nom, slug, svg });
+  especeViews.push({ nom: e.nom, slug, svg, categorie: (e as any).categorie ?? 'autre' });
   if (!slug) continue;
 
   const data = especeParDepartement.get(slug);
@@ -207,17 +207,59 @@ for (const e of especesDuTerritoire) {
     especeRows.push({ slug, titre: `${e.nom} — Statut`, valeur: "Aucune règle spécifique recensée pour cette espèce dans l'arrêté de ce département.", refs: ref ? [ref] : [] });
   }
 }
+
+// Sélecteur : 5 silhouettes emblématiques (accès rapide) + toutes les espèces groupées par catégorie.
+const EMBLEMATIQUES = ['sanglier', 'chevreuil', 'cerf-elaphe', 'faisan-commun', 'lievre-europe'];
+const emblematiques = EMBLEMATIQUES
+  .map((s) => especeViews.find((v) => v.slug === s))
+  .filter((v): v is EspeceBannerView => !!v);
+const ORDRE_CATEGORIES: [string, string][] = [
+  ['grand gibier', 'Grand gibier'],
+  ['petit gibier sédentaire', 'Petit gibier sédentaire'],
+  ['gibier de montagne', 'Gibier de montagne'],
+  ['oiseau de passage', 'Oiseaux de passage'],
+  ["gibier d'eau", "Gibier d'eau"],
+  ["gibier d'outre-mer", "Gibier d'outre-mer"],
+];
+const groupes = ORDRE_CATEGORIES
+  .map(([key, label]) => ({ key, label, especes: especeViews.filter((v) => v.slug && v.categorie === key) }))
+  .filter((g) => g.especes.length > 0);
 ---
 <Base title={`Chasse ${LOCALISATION[dep.code]} (${dep.code})`} description={`Dates d'ouverture et de fermeture, quotas et arrêtés de la chasse ${LOCALISATION[dep.code]}.`}>
-  <div class="wrap">
-    <div class="especes-banner" role="group" aria-label="Filtrer par espèce">
-      {especeViews.map((e) => (
-        <button type="button" class="espece-btn" data-slug={e.slug} aria-pressed="false">
-          <span class="espece-btn-icon" set:html={e.svg ?? '<span aria-hidden="true">—</span>'} />
-          <span class="espece-btn-nom">{e.nom}</span>
-        </button>
-      ))}
+  <div class="wrap selecteur-bloc">
+    <div class="selecteur" role="group" aria-label="Sélectionner une ou plusieurs espèces">
+      <div class="sel-tuiles">
+        {emblematiques.map((e) => (
+          <button type="button" class="sel-tuile" data-slug={e.slug} aria-pressed="false">
+            <span class="sel-tuile-icon" set:html={e.svg ?? '<span aria-hidden="true">—</span>'} />
+            <span class="sel-tuile-nom">{e.nom}</span>
+          </button>
+        ))}
+      </div>
+      <div class="sel-recherche">
+        <div class="sel-champ">
+          <svg class="sel-loupe" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="8" r="6"/><path d="M13 13 L17 17"/></svg>
+          <input type="text" id="sel-search" class="sel-input" placeholder="Rechercher une espèce…" role="combobox" aria-expanded="false" aria-controls="sel-menu" aria-autocomplete="list" autocomplete="off" />
+          <button type="button" id="sel-toggle" class="sel-chevron" aria-label="Ouvrir la liste des espèces" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6 L8 10 L12 6"/></svg>
+          </button>
+        </div>
+        <div id="sel-menu" class="sel-menu" role="listbox" aria-multiselectable="true" aria-label="Espèces" hidden>
+          {groupes.map((g) => (
+            <div class="sel-groupe" data-cat={g.key}>
+              <p class="sel-groupe-titre">{g.label}</p>
+              {g.especes.map((e) => (
+                <div class="sel-option" role="option" data-slug={e.slug} aria-selected="false">
+                  <svg class="sel-coche" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5 L6.5 12 L13 4"/></svg>
+                  <span class="sel-option-nom">{e.nom}</span>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
+    <div id="sel-chips" class="sel-chips" hidden></div>
   </div>
 
   <div class="wrap fiche">
@@ -275,42 +317,88 @@ for (const e of especesDuTerritoire) {
   </div>
 
   <script>
-    const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>('.espece-btn'));
-    const generale = document.getElementById('row-generale')!;
     const rows = Array.from(document.querySelectorAll<HTMLElement>('.espece-row'));
+    const generale = document.getElementById('row-generale') as HTMLElement;
+    const tiles = Array.from(document.querySelectorAll<HTMLElement>('.sel-tuile'));
+    const options = Array.from(document.querySelectorAll<HTMLElement>('.sel-option'));
+    const groupes = Array.from(document.querySelectorAll<HTMLElement>('.sel-groupe'));
+    const input = document.getElementById('sel-search') as HTMLInputElement;
+    const menu = document.getElementById('sel-menu') as HTMLElement;
+    const toggle = document.getElementById('sel-toggle') as HTMLElement;
+    const chipsBox = document.getElementById('sel-chips') as HTMLElement;
     const selected = new Set<string>();
 
-    function render() {
-      buttons.forEach((b) => {
-        const on = selected.has(b.dataset.slug!);
-        b.setAttribute('aria-pressed', on ? 'true' : 'false');
-        b.classList.toggle('active', on);
-      });
-      rows.forEach((r) => { r.hidden = !selected.has(r.dataset.slug!); });
+    const noms: Record<string, string> = {};
+    options.forEach((o) => { noms[o.dataset.slug!] = o.querySelector('.sel-option-nom')!.textContent!; });
+    tiles.forEach((t) => { if (!noms[t.dataset.slug!]) noms[t.dataset.slug!] = t.querySelector('.sel-tuile-nom')!.textContent!; });
 
-      const visible = [generale, ...rows].filter((r) => !r.hidden);
-      [generale, ...rows].forEach((r) => r.classList.remove('is-last'));
-      visible[visible.length - 1]?.classList.add('is-last');
+    function normalize(s: string) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim(); }
+    const optNorm = new Map(options.map((o) => [o, normalize(noms[o.dataset.slug!])] as const));
+
+    function levenshtein(a: string, b: string) {
+      const m = a.length, n = b.length, dp: number[][] = [];
+      for (let i = 0; i <= m; i++) { dp.push(new Array(n + 1).fill(0)); dp[i][0] = i; }
+      for (let j = 0; j <= n; j++) dp[0][j] = j;
+      for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) {
+        dp[i][j] = a[i - 1] === b[j - 1] ? dp[i - 1][j - 1] : 1 + Math.min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]);
+      }
+      return dp[m][n];
     }
 
-    buttons.forEach((b) => b.addEventListener('click', () => {
-      const slug = b.dataset.slug!;
-      if (selected.has(slug)) selected.delete(slug); else selected.add(slug);
-      render();
-    }));
+    function render() {
+      tiles.forEach((t) => { const on = selected.has(t.dataset.slug!); t.setAttribute('aria-pressed', on ? 'true' : 'false'); t.classList.toggle('active', on); });
+      options.forEach((o) => { const on = selected.has(o.dataset.slug!); o.setAttribute('aria-selected', on ? 'true' : 'false'); o.classList.toggle('selected', on); });
+      rows.forEach((r) => { r.hidden = !selected.has(r.dataset.slug!); });
+      chipsBox.innerHTML = '';
+      selected.forEach((slug) => {
+        const chip = document.createElement('button');
+        chip.type = 'button'; chip.className = 'sel-chip';
+        chip.innerHTML = (noms[slug] || slug) + ' <span aria-hidden="true">×</span>';
+        chip.setAttribute('aria-label', 'Retirer ' + (noms[slug] || slug));
+        chip.addEventListener('click', () => { selected.delete(slug); render(); });
+        chipsBox.appendChild(chip);
+      });
+      chipsBox.hidden = selected.size === 0;
+      const all = [generale, ...rows];
+      all.forEach((r) => r.classList.remove('is-last'));
+      const visible = all.filter((r) => !r.hidden);
+      if (visible.length) visible[visible.length - 1].classList.add('is-last');
+    }
+
+    function toggleSlug(slug: string) { if (selected.has(slug)) selected.delete(slug); else selected.add(slug); render(); }
+    tiles.forEach((t) => t.addEventListener('click', () => toggleSlug(t.dataset.slug!)));
+    options.forEach((o) => o.addEventListener('mousedown', (e) => { e.preventDefault(); toggleSlug(o.dataset.slug!); }));
+
+    function openMenu(open: boolean) { menu.hidden = !open; input.setAttribute('aria-expanded', open ? 'true' : 'false'); toggle.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+    function filtrer() {
+      const q = normalize(input.value);
+      openMenu(true);
+      const seuil = Math.max(1, Math.floor(q.length / 3));
+      options.forEach((o) => {
+        const name = optNorm.get(o)!;
+        let match = !q || name.includes(q);
+        if (!match && q.length >= 3) {
+          const words = name.split(/\s+/);
+          const d = Math.min(levenshtein(q, name), ...words.map((w) => levenshtein(q, w)));
+          match = d <= seuil;
+        }
+        o.hidden = !match;
+      });
+      groupes.forEach((g) => { g.hidden = !Array.from(g.querySelectorAll<HTMLElement>('.sel-option')).some((o) => !o.hidden); });
+    }
+    input.addEventListener('input', filtrer);
+    input.addEventListener('focus', () => openMenu(true));
+    toggle.addEventListener('click', () => { if (menu.hidden) { openMenu(true); input.focus(); } else openMenu(false); });
+    document.addEventListener('click', (e) => { if (!(e.target as HTMLElement).closest('.sel-recherche')) openMenu(false); });
 
     render();
   </script>
 
   <script define:vars={{ depCode: dep.code }} is:inline>
     window.trackEvent && window.trackEvent('department_view', { code: depCode });
-    document.querySelectorAll('.espece-btn').forEach(function (b) {
+    document.querySelectorAll('.sel-tuile, .sel-option').forEach(function (b) {
       b.addEventListener('click', function () {
-        window.trackEvent && window.trackEvent('species_select', {
-          code: depCode,
-          slug: b.dataset.slug,
-          selected: b.getAttribute('aria-pressed') === 'true',
-        });
+        window.trackEvent && window.trackEvent('species_select', { code: depCode, slug: b.dataset.slug });
       });
     });
   </script>

@@ -1,26 +1,272 @@
 {
-  "note": "Liste de référence de départ, à compléter et sourcer par le pipeline.",
+  "note": "Liste de référence, catégorisée. Slugs alignés sur lib/migrateurs.ts et lib/gibier-eau.ts.",
   "especes": [
-    { "nom": "Cerf élaphe", "categorie": "grand gibier" },
-    { "nom": "Chevreuil", "categorie": "grand gibier" },
-    { "nom": "Sanglier", "categorie": "grand gibier" },
-    { "nom": "Chamois", "categorie": "grand gibier" },
-    { "nom": "Mouflon méditerranéen", "categorie": "grand gibier" },
-    { "nom": "Lièvre d'Europe", "categorie": "petit gibier sédentaire" },
-    { "nom": "Lapin de garenne", "categorie": "petit gibier sédentaire" },
-    { "nom": "Perdrix rouge", "categorie": "petit gibier sédentaire" },
-    { "nom": "Perdrix grise", "categorie": "petit gibier sédentaire" },
-    { "nom": "Faisan commun", "categorie": "petit gibier sédentaire" },
-    { "nom": "Canard colvert", "categorie": "gibier d'eau" },
-    { "nom": "Bécasse des bois", "categorie": "oiseau de passage" },
-    { "nom": "Grive draine", "categorie": "oiseau de passage" },
-    { "nom": "Pigeon ramier", "categorie": "oiseau de passage" },
-    { "nom": "Caille des blés", "categorie": "oiseau de passage" },
-    { "nom": "Tétras-lyre", "categorie": "galliforme de montagne" },
-    { "nom": "Lagopède alpin", "categorie": "galliforme de montagne" },
-    { "nom": "Perdrix bartavelle", "categorie": "galliforme de montagne" },
-    { "nom": "Tangue", "categorie": "gibier d'outre-mer", "territoire": "La Réunion" },
-    { "nom": "Lièvre à collier noir", "categorie": "gibier d'outre-mer", "territoire": "La Réunion" },
-    { "nom": "Cerf de Java", "categorie": "gibier d'outre-mer", "territoire": "La Réunion" }
+    {
+      "nom": "Cerf élaphe",
+      "categorie": "grand gibier"
+    },
+    {
+      "nom": "Chevreuil",
+      "categorie": "grand gibier"
+    },
+    {
+      "nom": "Sanglier",
+      "categorie": "grand gibier"
+    },
+    {
+      "nom": "Chamois",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Mouflon méditerranéen",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Tétras-lyre",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Lagopède alpin",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Perdrix bartavelle",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Lièvre d'Europe",
+      "categorie": "petit gibier sédentaire"
+    },
+    {
+      "nom": "Lapin de garenne",
+      "categorie": "petit gibier sédentaire"
+    },
+    {
+      "nom": "Perdrix rouge",
+      "categorie": "petit gibier sédentaire"
+    },
+    {
+      "nom": "Perdrix grise",
+      "categorie": "petit gibier sédentaire"
+    },
+    {
+      "nom": "Faisan commun",
+      "categorie": "petit gibier sédentaire"
+    },
+    {
+      "nom": "Bécasse des bois",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Caille des blés",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Grive draine",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Grive litorne",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Grive mauvis",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Grive musicienne",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Merle noir",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Alouette des champs",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Pigeon ramier",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Pigeon colombin",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Pigeon biset",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Tourterelle turque",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Tourterelle des bois",
+      "categorie": "oiseau de passage"
+    },
+    {
+      "nom": "Canard colvert",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Canard chipeau",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Canard siffleur",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Canard pilet",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Canard souchet",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Sarcelle d'hiver",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Sarcelle d'été",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Fuligule milouin",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Fuligule morillon",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Fuligule milouinan",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Nette rousse",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Garrot à œil d'or",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Harelde boréale",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Macreuse brune",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Macreuse noire",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Eider à duvet",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Oie cendrée",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Oie rieuse",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Oie des moissons",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Foulque macroule",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Poule d'eau",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Râle d'eau",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Bécassine des marais",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Bécassine sourde",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Barge rousse",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Barge à queue noire",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Bécasseau maubèche",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Chevalier aboyeur",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Chevalier arlequin",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Chevalier combattant",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Chevalier gambette",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Courlis corlieu",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Courlis cendré",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Huîtrier pie",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Pluvier doré",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Pluvier argenté",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Vanneau huppé",
+      "categorie": "gibier d'eau"
+    },
+    {
+      "nom": "Tangue",
+      "categorie": "gibier d'outre-mer",
+      "territoire": "La Réunion"
+    },
+    {
+      "nom": "Lièvre à collier noir",
+      "categorie": "gibier d'outre-mer",
+      "territoire": "La Réunion"
+    },
+    {
+      "nom": "Cerf de Java",
+      "categorie": "gibier d'outre-mer",
+      "territoire": "La Réunion"
+    }
   ]
 }
