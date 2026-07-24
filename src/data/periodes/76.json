@@ -1,0 +1,116 @@
+{
+  "departement": "76",
+  "saison": "2026-2027",
+  "licence_source": "Licence ouverte Etalab 2.0",
+  "ouverture_generale": {
+    "date": "2026-09-20",
+    "fermeture": "2027-02-28",
+    "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+    "source_label": "Arrêté préfectoral fixant les dates d'ouverture et de clôture de la chasse en Seine-Maritime pour la campagne 2026-2027 (signé à Rouen le 2 juillet 2026)",
+    "confiance": "haute"
+  },
+  "arretes_officiels": [
+    {
+      "objet": "Ouverture et clôture générale 2026-2027",
+      "reference": "Arrêté préfectoral du 2 juillet 2026 (Préfecture de la Seine-Maritime, DDTM)",
+      "url_pdf": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+      "statut": "signé"
+    }
+  ],
+  "especes": [
+    {
+      "slug": "sanglier",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Espèce soumise à plan de gestion obligatoire. Du 1er juin au 14 août 2026 : tous modes de chasse autorisés, avec arrêté fédéral au détenteur du droit de chasse. Du 15 août 2026 au 31 mars 2027 : tous modes de chasse autorisés, sans autorisation fédérale. Du 1er avril au 31 mai 2027 : tir à l'approche ou à l'affût, voire en battue à titre exceptionnel, avec autorisation préfectorale au détenteur du droit de chasse. Du 1er juin au 14 août 2027 : tous modes autorisés avec arrêté fédéral. Tir uniquement à balle ou à l'arc de chasse",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        },
+        {
+          "label": "Autre",
+          "detail": "Marquage obligatoire : sur l'ensemble du département, tout chasseur ou organisateur devra pouvoir présenter au moins un dispositif de marquage. Chaque sanglier prélevé doit être marqué d'un dispositif daté du jour et du mois de la capture avant tout transport ; en l'absence de déplacement, le marquage doit être apposé au plus tard une heure après le coucher légal du soleil. Deux modèles de bracelets (≤ 20 kg plein ou > 20 kg plein), en vente au siège de la fédération et chez les armuriers dépositaires en nombre illimité",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    },
+    {
+      "slug": "chevreuil",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Espèce soumise à plan de chasse (avec arrêté fédéral au détenteur du droit de chasse). Du 1er juin au 19 septembre 2026 : tir à l'approche ou à l'affût des brocards uniquement (à balle ou à l'arc de chasse). Du 20 septembre 2026 au 28 février 2027 : tous modes de chasse autorisés. Du 1er juin 2027 à l'ouverture générale 2027 : tir à l'approche ou à l'affût des brocards",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    },
+    {
+      "slug": "cerf-elaphe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Espèce soumise à plan de chasse (avec arrêté fédéral au détenteur du droit de chasse). Cerf élaphe mâle : du 1er septembre au 19 septembre 2026, tir à l'approche ou à l'affût. Cerf élaphe mâle et faon : du 20 septembre 2026 au 28 février 2027, tous modes de chasse autorisés. Biche : du 1er novembre 2026 au 28 février 2027, tous modes de chasse autorisés. Tir uniquement à balle ou à l'arc de chasse",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-europe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 4 octobre au 10 décembre 2026. Le marquage du lièvre est obligatoire sur l'ensemble du département. Le marquage du petit gibier prélevé doit être effectué à plus de 50 m des véhicules ou avant tout transport en dehors de la zone chassée",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    },
+    {
+      "slug": "lapin-garenne",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre 2026 au 28 février 2027. Durant cette période, la chasse du lapin peut également être pratiquée à l'aide du furet (arrêté du 1er août 1986 modifié)",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-grise",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 4 octobre au 10 décembre 2026, sur les territoires en plan de gestion. Le marquage de la perdrix est obligatoire dans les secteurs soumis au plan de gestion. Pour les établissements professionnels de chasse à caractère commercial, dérogation conformément aux articles R. 424-13-3 et R. 424-13-4 du code de l'environnement et à l'arrêté ministériel du 8 janvier 2014 modifié",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-rouge",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Chassable pendant la période d'ouverture générale (du 20 septembre 2026 au 28 février 2027). L'arrêté prévoit en outre : pour les associations cynophiles préparant les chiens en vue des field trials et les organisateurs d'épreuves officielles de la société centrale canine, tir possible à partir du 1er septembre 2026 ; pour les établissements professionnels de chasse à caractère commercial, dérogation conformément aux articles R. 424-13-3 et R. 424-13-4 du code de l'environnement et à l'arrêté ministériel du 8 janvier 2014 modifié. Le marquage de la perdrix est obligatoire dans les secteurs soumis au plan de gestion",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    },
+    {
+      "slug": "faisan-commun",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 4 octobre 2026 au 10 janvier 2027, avec tir de la poule interdit sauf sur les unités 90 et 91. Le marquage du faisan est obligatoire dans les secteurs soumis au plan de gestion. Unités en plan de gestion 2 (PG2) avec dispositifs de marquage obligatoire : unité 5 (zone A), unité 11 (zone D), unités 71 et 72 (zone L), unité 53 (zone I), unité 56 (zone J), unité 61 (zone P), unités 45, 74 et 75 (zone K), unités 60 et 62 (zone R), unité 66 (zone M). Pour les établissements professionnels de chasse à caractère commercial, dérogation conformément aux articles R. 424-13-3 et R. 424-13-4 du code de l'environnement et à l'arrêté ministériel du 8 janvier 2014 modifié",
+          "source_url": "https://www.fdc76.com/download/arrete-douverture-et-cloture-de-la-chasse-2026-2027/?wpdmdl=3432",
+          "source_label": "Arrêté préfectoral du 2 juillet 2026 (Seine-Maritime)"
+        }
+      ]
+    }
+  ]
+}
