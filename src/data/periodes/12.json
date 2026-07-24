@@ -1,0 +1,139 @@
+{
+  "departement": "12",
+  "saison": "2026-2027",
+  "licence_source": "Licence ouverte Etalab 2.0",
+  "ouverture_generale": {
+    "date": "2026-09-13",
+    "fermeture": "2027-03-31",
+    "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+    "source_label": "Arrêté préfectoral n°12-2026-07-16-005 relatif à l'ouverture et à la clôture de la chasse pour la campagne 2026/2027 dans le département de l'Aveyron (signé le 16 juillet 2026)",
+    "confiance": "haute"
+  },
+  "arretes_officiels": [
+    {
+      "objet": "Ouverture et clôture générale 2026-2027",
+      "reference": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026, publié le 17/07/2026 au recueil n°12-2026-473)",
+      "url_pdf": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+      "statut": "signé"
+    }
+  ],
+  "especes": [
+    {
+      "slug": "sanglier",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ouverture générale du 13 septembre 2026 au 3 janvier 2027 (tous modes de chasse confondus). Du 4 janvier au 31 mars 2027 : chasse autorisée en battues aux conditions préalables définies au sein des Unités de Gestion (UG), tir de rencontre autorisé lors de la chasse du petit gibier jusqu'au 20 février 2027. Rappel : la période estivale du 15 août au 12 septembre 2026 (battues et chasse individuelle à l'approche ou à l'affût) et du 1er juin au 12 septembre 2026 est prévue par l'arrêté préfectoral n°12-2025-07-11-00012 du 11 juillet 2025. Du 1er avril au 31 mai 2027 : chasse uniquement pour la protection des semis, à l'affût, voire en battue à titre exceptionnel après autorisation préfectorale. Du 1er juin au 11 septembre 2027 : chasse individuelle à l'affût pour les bénéficiaires d'une autorisation préfectorale individuelle",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        },
+        {
+          "label": "Autre",
+          "detail": "Chasse par temps de neige autorisée en battues du sanglier du 13 septembre 2026 au 31 mars 2027 sur l'ensemble du territoire départemental (articles 2 et 10). Plan de gestion cynégétique du sanglier appliqué dans les réserves de chasse et de faune sauvage des ACCA adhérentes (article 11)",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "chevreuil",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Soumis à plan de chasse. Du 13 septembre 2026 au 28 février 2027 : tir individuel à l'approche, à l'affût ou en battue, tir à balles obligatoire en tout temps (possibilité de tir à plomb du chevreuil en battue, plomb n°1 ou 2 série de Paris, dans les conditions de l'arrêté préfectoral du 16 avril 2014). Chasse du brocard et du daim (mâle) du 1er juin au 11 septembre 2027 : tir individuel à l'approche et à l'affût pour les bénéficiaires d'une autorisation préfectorale individuelle, tir à balles obligatoire",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "cerf-elaphe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Grands cervidés (cerf élaphe et cerf sika), soumis à plan de chasse. Du 1er octobre 2026 au 28 février 2027 : tir individuel à l'approche et à l'affût, tir à balles obligatoire en tout temps. Du 17 octobre 2026 au 28 février 2027 : tir individuel à l'approche, à l'affût ou en battue",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "mouflon-mediterraneen",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Soumis à plan de chasse. Du 1er au 12 septembre 2026 : tir individuel à l'approche et à l'affût pour les bénéficiaires d'une autorisation préfectorale individuelle, tir à balles obligatoire en tout temps. Du 13 septembre 2026 au 28 février 2027 : tir individuel à l'approche, à l'affût ou en battue, tir à balles obligatoire en tout temps",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-europe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 27 septembre 2026 au 13 décembre 2026 au soir. Pour les territoires soumis à plan de chasse : prélèvements autorisés uniquement pour les bénéficiaires de plan de chasse. Espèce soumise à prélèvement maximum autorisé (PMA) dans le cadre du plan de gestion (voir annexe 1 pour la liste des communes concernées)",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        },
+        {
+          "label": "Autre",
+          "detail": "Sont interdits la vente, la mise en vente, l'achat et le transport en vue de la vente de lièvre mort du 27 septembre 2026 au 13 décembre 2027 au soir (sauf gibier d'élevage ou d'importation dans les conditions de l'arrêté ministériel du 12 août 1994)",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lapin-garenne",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 31 janvier 2027 au soir",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        },
+        {
+          "label": "Autre",
+          "detail": "La chasse du lapin peut être pratiquée à l'aide du furet par les bénéficiaires d'autorisations administratives individuelles ; les demandes sont déposées à la fédération départementale des chasseurs (article 15)",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-rouge",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Perdrix rouge et grise : du 13 septembre 2026 au 31 décembre 2026 au soir",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-grise",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Perdrix rouge et grise : du 13 septembre 2026 au 31 décembre 2026 au soir",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "faisan-commun",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Faisan de chasse : du 13 septembre 2026 au 31 janvier 2027 au soir",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    }
+  ]
+}

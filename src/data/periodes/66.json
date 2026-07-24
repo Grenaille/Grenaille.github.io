@@ -1,0 +1,149 @@
+{
+  "departement": "66",
+  "saison": "2026-2027",
+  "licence_source": "Licence ouverte Etalab 2.0",
+  "ouverture_generale": {
+    "date": "2026-09-13",
+    "fermeture": "2027-02-28",
+    "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+    "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 relatif à l'ouverture et à la clôture de la chasse pour la saison 2026/2027 dans le département des Pyrénées-Orientales (signé le 29 mai 2026)",
+    "confiance": "haute"
+  },
+  "arretes_officiels": [
+    {
+      "objet": "Ouverture et clôture générale 2026-2027",
+      "reference": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)",
+      "url_pdf": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+      "statut": "signé"
+    }
+  ],
+  "especes": [
+    {
+      "slug": "sanglier",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 1er juin au 14 août 2026 : tir d'été à l'approche, à l'affût ou en battue sur tout le département, conformément à l'arrêté préfectoral spécifique n°2009145-21 du 25 mai 2009. Du 15 août 2026 au 31 mars 2027 : approche, affût, battue sur tout le département conformément au plan de gestion sanglier (disposition n°104 du SDGC), et dans les conditions de la chasse du petit gibier sédentaire sur les territoires de l'Unité de gestion 10 Plaine du Roussillon. Battue autorisée les mercredi, samedi, dimanche et jours fériés légaux ; approche et affût tous les jours",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        },
+        {
+          "label": "Autre",
+          "detail": "Déclaration des prélèvements : du 1er juin au 12 septembre, les sangliers prélevés doivent être déclarés au détenteur du droit de chasse ; de l'ouverture générale au 31 mars 2027, ils doivent être inscrits obligatoirement sur le « carnet du chasseur 66 » ou sur l'application « ChassAdapt ». Chasse en battue : 3 jours/semaine, minimum 5 participants, carnet de battue agréé obligatoire",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "chevreuil",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Soumis à plan de chasse. Du 1er juin au 12 septembre 2026 : tir d'été à l'approche ou à l'affût, prélèvement maximum autorisé fixé à 1/3 de l'attribution totale du plan de chasse individuel 2026/2027. Du 13 septembre 2026 au 28 février 2027 : approche, affût, battue. Du 1er juin au 30 juin 2027 : début du tir d'été 2027, approche et affût (PMA fixé à 1/3 de l'attribution du plan de chasse 2027/2028). Battue autorisée les mercredi, samedi, dimanche et jours fériés légaux ; approche et affût tous les jours",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "cerf-elaphe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 1er septembre 2026 au 28 février 2027, soumis à plan de chasse. Approche, affût, battue. Battue autorisée les mercredi, samedi, dimanche et jours fériés légaux ; approche et affût tous les jours",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "chamois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Isard, soumis à plan de chasse. Sur l'unité de gestion du Puigmal : du 13 septembre au 30 novembre 2026, à l'approche et à l'affût. Sur toutes les autres unités de gestion : du 13 septembre 2026 au 31 janvier 2027, à l'approche et à l'affût. Chasse autorisée tous les jours",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "mouflon-mediterraneen",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 1er septembre 2026 au 28 février 2027, soumis à plan de chasse. Approche, affût, battue. Battue autorisée les mercredi, samedi, dimanche et jours fériés légaux ; approche et affût tous les jours",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-europe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Zone I : du 13 septembre au 31 décembre 2026 (2 lièvres/semaine/chasseur d'après le tableau ; 15 lièvres/an/chasseur ; 3 chasseurs maximum). Zone II : du 13 septembre au 31 décembre 2026 (2 lièvres/semaine/chasseur ; 15 lièvres/an/chasseur ; 4 chasseurs maximum). Jours de chasse : Zone I mercredi, samedi, dimanche et jours fériés ; Zone II lundi, mercredi, jeudi, samedi, dimanche et jours fériés",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lapin-garenne",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Zones I et II : du 13 septembre au 25 décembre 2026 en tant que gibier (10 lapins/semaine/chasseur, 30 lapins/an/chasseur, 3 chasseurs maximum ; jours de chasse lundi, mercredi, jeudi, samedi, dimanche et jours fériés). Du 13 septembre 2026 au 28 février 2027 lorsque le lapin est classé ESOD (espèce susceptible d'occasionner des dégâts), chassable tous les jours",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-rouge",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Zone I : du 13 septembre au 11 novembre 2026 (2 perdrix/semaine/chasseur, 8 perdrix/an/chasseur, 3 chasseurs maximum ; jours de chasse mercredi, samedi, dimanche et jours fériés). Zone II : du 21 septembre au 11 novembre 2026 (2 perdrix/jour/chasseur, 8 perdrix/an/chasseur, 3 chasseurs maximum ; jours de chasse lundi, mercredi, jeudi, samedi, dimanche et jours fériés). Clôture au 28 février 2027 sur les chasses commerciales déclarées en préfecture (décret 2013-1302 du 27 décembre 2013)",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-grise",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Zone II : se référer au SDGC et à l'arrêté préfectoral spécifique (jours de chasse lundi, mercredi, jeudi, samedi, dimanche et jours fériés). Zones I et II : lâchers et tirs interdits en zone I ; lâchers interdits en zone II",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "faisan-commun",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Zones I et II : du 13 septembre 2026 au 31 janvier 2027 (jours de chasse lundi, mercredi, jeudi, samedi, dimanche et jours fériés). Clôture au 28 février 2027 sur les chasses commerciales déclarées en préfecture (décret 2013-1302 du 27 décembre 2013)",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lagopede-alpin",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Lagopède : plan de chasse égal à 0 (aucun prélèvement autorisé pour la saison 2026-2027)",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "departement": "04",
+  "saison": "2026-2027",
+  "licence_source": "Licence ouverte Etalab 2.0",
+  "ouverture_generale": {
+    "date": "2026-09-13",
+    "fermeture": "2027-01-10",
+    "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+    "source_label": "Arrêté préfectoral n°2026-201-017 relatif à l'ouverture et à la clôture de la chasse pour la campagne 2026-2027 dans le département des Alpes-de-Haute-Provence (signé le 20 juillet 2026)",
+    "confiance": "haute"
+  },
+  "arretes_officiels": [
+    {
+      "objet": "Ouverture et clôture générale 2026-2027",
+      "reference": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)",
+      "url_pdf": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+      "statut": "signé"
+    }
+  ],
+  "especes": [
+    {
+      "slug": "sanglier",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "À balle ou à l'arc, tous les jours sauf vendredi (chasse autorisée tous les jours fériés). Ouverture générale du 13 septembre 2026 au 10 janvier 2027 au soir, avec prolongation jusqu'au 28 février 2027 au soir pour l'ensemble du département. Ouverture spécifique le 1er juin 2026 et ouverture anticipée le 15 août 2026. Du 1er juin au 14 août 2026 : chasse à l'affût ou à l'approche avec désignation de la parcelle, après autorisation préfectorale individuelle, tous les jours sauf dimanches et jours fériés, de l'aube à 10h et de 17h au crépuscule. Du 15 août au 12 septembre 2026 : tous les jours sauf mardi et vendredi, en battue sur l'ensemble du territoire, à l'affût ou à l'approche uniquement sur les parcelles agricoles non récoltées. Du 11 janvier au 28 février 2027 : tous les jours sauf vendredi",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        },
+        {
+          "label": "Autre",
+          "detail": "Le carnet de battue est obligatoire pour les battues toute la saison. Chasse collective limitée à 2 ou 3 chasseurs ; toute chasse de grand gibier regroupant 4 chasseurs et plus est réputée être une battue. Port du gilet fluorescent obligatoire pour tous les chasseurs, traqueurs et accompagnateurs",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "chevreuil",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Pour les seuls bénéficiaires du plan de chasse, selon les prescriptions de la décision d'attribution individuelle. À balle ou à l'arc, du 13 septembre 2026 au 28 février 2027 au soir, tous les jours sauf vendredi (chasse autorisée tous les jours fériés). Ouverture spécifique le 1er juin 2026 (brocard uniquement). Du 1er juin au 12 septembre 2026 : chasse uniquement à l'affût ou à l'approche, tous les jours de l'aube à 10h et de 17h au crépuscule, après autorisation préfectorale délivrée au détenteur du droit de chasse. Le carnet de battue est obligatoire pour les battues toute la saison",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "cerf-elaphe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Pour les seuls bénéficiaires du plan de chasse, selon les prescriptions de la décision d'attribution individuelle. À balle ou à l'arc, du 1er septembre 2026 au 28 février 2027 au soir, tous les jours sauf vendredi (chasse autorisée tous les jours fériés). Possibilité de tirer un faon avec un bracelet CEM. Le carnet de battue est obligatoire pour les battues toute la saison",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "mouflon-mediterraneen",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Pour les seuls bénéficiaires du plan de chasse, selon les prescriptions de la décision d'attribution individuelle. À balle ou à l'arc, du 13 septembre 2026 au 31 janvier 2027 au soir, chasse à l'approche uniquement, tous les jours sauf vendredi (chasse autorisée tous les jours fériés). Possibilité de tirer un jeune (MOJ) avec un bracelet de classe supérieure",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "chamois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Pour les seuls bénéficiaires du plan de chasse, selon les prescriptions de la décision d'attribution individuelle. À balle ou à l'arc, du 1er septembre 2026 au 31 janvier 2027 au soir, chasse à l'approche uniquement, tous les jours sauf vendredi (chasse autorisée tous les jours fériés). Possibilité de tirer un jeune (ISIJ) avec un bracelet de classe supérieure",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        },
+        {
+          "label": "Autre",
+          "detail": "La chasse de la femelle du chamois suitée, isolée de la harde ou non, est interdite toute l'année sur tout le territoire des Alpes-de-Haute-Provence afin de favoriser la protection et le repeuplement naturel du gibier",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-europe",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 10 janvier 2027 au soir. En septembre : jeudis, samedis et dimanches, avec un plan de gestion de 1 lièvre/jour/chasseur pour l'ensemble du département. À compter du 1er octobre : tous les jours sauf mardi et vendredi, avec un plan de gestion de 1 lièvre/jour/chasseur pour l'ensemble du département (chasse autorisée tous les jours fériés)",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lapin-garenne",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 10 janvier 2027 au soir. Tous les jours sauf mardi et vendredi. Chasse autorisée tous les jours fériés",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-rouge",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre au 6 décembre 2026 au soir. En septembre : jeudis, samedis, dimanches. À compter du 1er octobre : tous les jours sauf mardi et vendredi. Chasse autorisée tous les jours fériés",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-grise",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre au 6 décembre 2026 au soir. En septembre : jeudis, samedis, dimanches. À compter du 1er octobre : tous les jours sauf mardi et vendredi. Chasse autorisée tous les jours fériés",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "faisan-commun",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 10 janvier 2027 au soir. Ouverture : tous les jours sauf mardi et vendredi. Chasse autorisée tous les jours fériés",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "tetras-lyre",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre au 11 novembre 2026 au soir. Jeudis, samedis, dimanches et jours fériés, pour les seuls bénéficiaires d'un plan de chasse et selon les prescriptions des décisions individuelles d'attributions. Carnet de prélèvement obligatoire. Le tir de la poule de tétras-lyre et des jeunes oiseaux maillés à moins de 80 % est strictement interdit",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lagopede-alpin",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre au 11 novembre 2026 au soir. Jeudis, samedis, dimanches et jours fériés, pour les seuls bénéficiaires d'un plan de chasse et selon les prescriptions des décisions individuelles d'attributions. Carnet de prélèvement obligatoire",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-bartavelle",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre au 11 novembre 2026 au soir (Perdrix bartavelle et rochassière). Jeudis, samedis, dimanches et jours fériés, pour les seuls bénéficiaires d'un plan de chasse et selon les prescriptions des décisions individuelles d'attributions. Carnet de prélèvement obligatoire",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    }
+  ]
+}
