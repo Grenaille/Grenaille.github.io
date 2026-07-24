@@ -52,13 +52,13 @@ const {
       .site-logo{display:inline-flex;align-items:center;gap:.55rem;padding:1.4rem 0 .2rem;text-decoration:none;}
       .site-logo-img{height:2.15rem;width:auto;flex:none;transform:translateY(-0.08rem);}
       .site-logo-text{display:flex;flex-direction:column;gap:.05rem;}
-      .site-logo-title{font-family:"Kikuta",sans-serif;font-weight:700;font-size:1.45rem;line-height:1;color:var(--ink);letter-spacing:-.01em;}
+      .site-logo-title{font-family:"Kikuta",sans-serif;font-weight:700;font-size:1.45rem;line-height:1;color:var(--ink);letter-spacing:-.01em;text-transform:uppercase;}
       .site-logo-title::first-letter{font-size:1.18em;}
       .site-logo-sub{font-size:.87rem;line-height:1;color:var(--muted);}
 
       /* Hero */
       .hero{background:#2e3632;color:#f3f1e7;padding:1.7rem 0 2rem;}
-      .hero h1{font-family:"Kikuta",sans-serif;font-weight:700;font-size:clamp(1.7rem,4vw,2.7rem);line-height:1;margin:0 0 .3rem;color:#fbfaf5;}
+      .hero h1{font-family:"Kikuta",sans-serif;font-weight:700;font-size:clamp(1.7rem,4vw,2.7rem);line-height:1;margin:0 0 .3rem;color:#fbfaf5;text-transform:uppercase;}
       .hero h1::first-letter{font-size:1.2em;}
       .hero .lede{margin:0;max-width:60ch;color:#d7ddd2;font-size:1.05rem;line-height:1;}
       .hero-top{display:flex;align-items:center;gap:1rem;}
@@ -139,10 +139,11 @@ const {
       .selecteur-bloc{border-bottom:1px solid var(--line);margin-bottom:1.4rem;padding-bottom:1rem;}
       .selecteur{display:flex;align-items:flex-start;gap:1.2rem;padding:1.2rem 0 0;}
       .sel-tuiles{display:flex;gap:6px;flex:none;}
-      .sel-tuile{width:66px;display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px 4px;background:transparent;border:none;border-radius:10px;color:var(--green-700);cursor:pointer;transition:background .12s ease,color .12s ease;}
-      .sel-tuile:hover{background:var(--green-50);}
-      .sel-tuile.active{background:var(--green-600);color:#fff;}
-      .sel-tuile-icon{width:34px;height:34px;display:flex;overflow:visible;}
+      .sel-tuile{width:70px;display:flex;flex-direction:column;align-items:center;gap:4px;padding:6px 4px;background:transparent;border:none;border-radius:10px;color:#8fbca5;cursor:pointer;transition:color .12s ease;}
+      .sel-tuile:hover{color:var(--green-600);}
+      .sel-tuile.active{color:var(--green-700);}
+      .sel-tuile.active .sel-tuile-nom{font-weight:600;}
+      .sel-tuile-icon{width:37px;height:37px;display:flex;overflow:visible;}
       .sel-tuile-icon svg{width:100%;height:100%;}
       .sel-tuile[data-slug="faisan-commun"] .sel-tuile-icon svg,.sel-tuile[data-slug="lapin-garenne"] .sel-tuile-icon svg{transform:scale(1.3);}
       .sel-tuile-nom{font-size:.68rem;line-height:1.15;text-align:center;color:inherit;}
