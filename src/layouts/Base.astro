@@ -50,7 +50,7 @@ const {
 
       /* Header */
       .site-logo{display:inline-flex;align-items:center;gap:.55rem;padding:1.4rem 0 .2rem;text-decoration:none;}
-      .site-logo-img{height:2.15rem;width:auto;flex:none;transform:translateY(-0.08rem);}
+      .site-logo-img{height:2.4rem;width:auto;max-width:100%;display:block;}
       .site-logo-text{display:flex;flex-direction:column;gap:.05rem;}
       .site-logo-title{font-family:"Kikuta",sans-serif;font-weight:700;font-size:1.45rem;line-height:1;color:var(--ink);letter-spacing:-.01em;text-transform:uppercase;}
       .site-logo-title::first-letter{font-size:1.18em;}
@@ -61,8 +61,7 @@ const {
       .hero h1{font-family:"Kikuta",sans-serif;font-weight:700;font-size:clamp(1.7rem,4vw,2.7rem);line-height:1;margin:0 0 .3rem;color:#fbfaf5;text-transform:uppercase;}
       .hero h1::first-letter{font-size:1.2em;}
       .hero .lede{margin:0;max-width:60ch;color:#d7ddd2;font-size:1.05rem;line-height:1;}
-      .hero-top{display:flex;align-items:center;gap:1rem;}
-      .hero-logo-img{height:4rem;width:auto;flex:none;transform:translateY(-0.15rem);}
+      .hero-lockup{display:block;height:clamp(3rem,10vw,4.6rem);width:auto;max-width:100%;}
 
       .intro-note{margin:1.6rem 0 0;color:var(--muted);font-size:.92rem;font-style:italic;line-height:1.55;max-width:62ch;}
 
@@ -207,12 +206,8 @@ const {
   <body>
     {Astro.url.pathname !== '/' && (
       <div class="wrap">
-        <a href="/" class="site-logo">
-          <img src="/logo-fauconnier-header.svg" alt="" class="site-logo-img" />
-          <span class="site-logo-text">
-            <span class="site-logo-title">Grenaille</span>
-            <span class="site-logo-sub">Actualité administrative</span>
-          </span>
+        <a href="/" class="site-logo" aria-label="Grenaille — Actualité administrative">
+          <img src="/logo-grenaille-sombre.svg" alt="Grenaille — Actualité administrative" class="site-logo-img" />
         </a>
       </div>
     )}
