@@ -14,6 +14,14 @@
       "categorie": "grand gibier"
     },
     {
+      "nom": "Daim",
+      "categorie": "grand gibier"
+    },
+    {
+      "nom": "Cerf sika",
+      "categorie": "grand gibier"
+    },
+    {
       "nom": "Chamois",
       "categorie": "gibier de montagne"
     },
@@ -34,6 +42,22 @@
       "categorie": "gibier de montagne"
     },
     {
+      "nom": "Grand tétras",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Gélinotte des bois",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Lièvre variable",
+      "categorie": "gibier de montagne"
+    },
+    {
+      "nom": "Marmotte",
+      "categorie": "gibier de montagne"
+    },
+    {
       "nom": "Lièvre d'Europe",
       "categorie": "petit gibier sédentaire"
     },
@@ -51,6 +75,10 @@
     },
     {
       "nom": "Faisan commun",
+      "categorie": "petit gibier sédentaire"
+    },
+    {
+      "nom": "Colin de Virginie",
       "categorie": "petit gibier sédentaire"
     },
     {

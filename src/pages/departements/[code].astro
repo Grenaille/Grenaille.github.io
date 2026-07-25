@@ -89,11 +89,14 @@ interface EspeceRow { slug: string; titre: string; valeur: string; refs: number[
 const especeViews: EspeceBannerView[] = [];
 const especeRows: EspeceRow[] = [];
 
-// Espèces de montagne : elles n'apparaissent que dans les départements où l'arrêté les réglemente
-// réellement (présence de données collectées). Chaque affichage est ainsi tracé à une source
-// vérifiable, plutôt qu'à une liste géographique à valider à la main. Les manques se comblent au
-// fur et à mesure de la collecte des arrêtés.
-const ESPECES_MONTAGNE = new Set(['chamois', 'mouflon-mediterraneen', 'tetras-lyre', 'lagopede-alpin', 'perdrix-bartavelle']);
+// Espèces LOCALISÉES (montagne, plan de chasse, introduites/enclos) : elles n'apparaissent que dans
+// les départements où l'arrêté les réglemente réellement (présence de données collectées). Chaque
+// affichage est ainsi tracé à une source vérifiable, plutôt qu'à une liste géographique à valider à
+// la main. Les manques se comblent au fur et à mesure de la collecte des arrêtés.
+const ESPECES_LOCALISEES = new Set([
+  'chamois', 'mouflon-mediterraneen', 'tetras-lyre', 'lagopede-alpin', 'perdrix-bartavelle',
+  'daim', 'cerf-sika', 'grand-tetras', 'gelinotte-bois', 'lievre-variable', 'marmotte', 'colin',
+]);
 
 const especesDuTerritoire = especesDataset.especes.filter((e) =>
   'territoire' in e ? e.territoire === dep.region : !DROM_REGIONS.has(dep.region)
@@ -101,8 +104,8 @@ const especesDuTerritoire = especesDataset.especes.filter((e) =>
 
 for (const e of especesDuTerritoire) {
   const slug = SLUGS[e.nom];
-  // Masque une espèce de montagne là où le département n'a pas d'arrêté la réglementant.
-  if (slug && ESPECES_MONTAGNE.has(slug) && !especeParDepartement.get(slug)?.faits?.length) continue;
+  // Masque une espèce localisée là où le département n'a pas d'arrêté la réglementant.
+  if (slug && ESPECES_LOCALISEES.has(slug) && !especeParDepartement.get(slug)?.faits?.length) continue;
   const svg = slug ? icons[`../../icons/especes/${slug}.svg`] ?? null : null;
   especeViews.push({ nom: e.nom, slug, svg, categorie: (e as any).categorie ?? 'autre' });
   if (!slug) continue;
