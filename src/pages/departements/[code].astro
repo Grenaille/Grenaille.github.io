@@ -228,7 +228,7 @@ const groupes = ORDRE_CATEGORIES
   .map(([key, label]) => ({ key, label, especes: especeViews.filter((v) => v.slug && v.categorie === key) }))
   .filter((g) => g.especes.length > 0);
 ---
-<Base title={`Chasse ${LOCALISATION[dep.code]} (${dep.code})`} description={`Dates d'ouverture et de fermeture, quotas et arrêtés de la chasse ${LOCALISATION[dep.code]}.`}>
+<Base title={`Chasse ${LOCALISATION[dep.code]} (${dep.code}) — Grenaille`} description={`Dates d'ouverture et de fermeture, quotas et arrêtés de la chasse ${LOCALISATION[dep.code]}.`}>
   <div class="wrap selecteur-bloc">
     <div class="selecteur" role="group" aria-label="Sélectionner une ou plusieurs espèces">
       <div class="sel-tuiles">
