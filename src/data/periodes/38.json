@@ -67,6 +67,72 @@
           "source_label": "Quotas plan de chasse grand gibier 2026-2027 (AP n°38-2026-03-27-00004)"
         }
       ]
+    },
+    {
+      "slug": "cerf-sika",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 01/07/2026 au 12/09/2026 et du 01/06/2027 au 30/06/2027 (tir anticipé à l'approche ou à l'affût, sans chien), puis du 13/09/2026 au 28/02/2027 tous modes de chasse autorisés. Non soumis à plan de chasse ; classé Espèce Exotique Envahissante (arrêté ministériel du 14/02/2018) ; tout prélèvement déclaré sous 72 h à la FDCI",
+          "source_url": "https://www.isere.gouv.fr/contenu/telechargement/83920/644203/file/AP_ouverture%20cloture%20CHASSE_2026_2027%20.pdf",
+          "source_label": "Arrêté préfectoral n°38-2026-06-23-00014 relatif à l'ouverture et la clôture de la chasse, campagne 2026-2027 (signé 23 juin 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "marmotte",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13/09/2026 au 04/10/2026. Chasse autorisée dans le massif de Belledonne uniquement les 20 et 27 septembre 2026 ; chasse interdite dans les massifs de Vercors, Chartreuse, Obiou, Connexe et Sénépi. Carnet de prélèvement obligatoire ; chasse en temps de neige interdite",
+          "source_url": "https://www.isere.gouv.fr/contenu/telechargement/83920/644203/file/AP_ouverture%20cloture%20CHASSE_2026_2027%20.pdf",
+          "source_label": "Arrêté préfectoral n°38-2026-06-23-00014 relatif à l'ouverture et la clôture de la chasse, campagne 2026-2027 (signé 23 juin 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-variable",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20/09/2026 au 11/11/2026. Soumis à PMA départemental de 50 lièvres et à PMA individuel de 2 lièvres par chasseur pour chacun des territoires auxquels il a accès ; déclaration obligatoire des prélèvements sous 72 h à la FDCI",
+          "source_url": "https://www.isere.gouv.fr/contenu/telechargement/83920/644203/file/AP_ouverture%20cloture%20CHASSE_2026_2027%20.pdf",
+          "source_label": "Arrêté préfectoral n°38-2026-06-23-00014 relatif à l'ouverture et la clôture de la chasse, campagne 2026-2027 (signé 23 juin 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "perdrix-bartavelle",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20/09/2026 au 11/11/2026. Soumis à plans de chasse, attribués par décision administrative de la FDCI en septembre",
+          "source_url": "https://www.isere.gouv.fr/contenu/telechargement/83920/644203/file/AP_ouverture%20cloture%20CHASSE_2026_2027%20.pdf",
+          "source_label": "Arrêté préfectoral n°38-2026-06-23-00014 relatif à l'ouverture et la clôture de la chasse, campagne 2026-2027 (signé 23 juin 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "tetras-lyre",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20/09/2026 au 11/11/2026. Soumis à plan de chasse, attribué par décision administrative de la FDCI en septembre. Dans la réserve naturelle des Hauts Plateaux du Vercors : en cas d'attribution de plan de chasse, chasse autorisée uniquement les dimanches et jours fériés",
+          "source_url": "https://www.isere.gouv.fr/contenu/telechargement/83920/644203/file/AP_ouverture%20cloture%20CHASSE_2026_2027%20.pdf",
+          "source_label": "Arrêté préfectoral n°38-2026-06-23-00014 relatif à l'ouverture et la clôture de la chasse, campagne 2026-2027 (signé 23 juin 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "gelinotte-bois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20/09/2026 au 11/11/2026. Soumis à PMA départemental de 20 gélinottes et à PMA individuel de 2 gélinottes par chasseur pour tout le département ; déclaration obligatoire des prélèvements sous 72 h à la FDCI",
+          "source_url": "https://www.isere.gouv.fr/contenu/telechargement/83920/644203/file/AP_ouverture%20cloture%20CHASSE_2026_2027%20.pdf",
+          "source_label": "Arrêté préfectoral n°38-2026-06-23-00014 relatif à l'ouverture et la clôture de la chasse, campagne 2026-2027 (signé 23 juin 2026)"
+        }
+      ]
     }
   ]
 }

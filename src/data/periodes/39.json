@@ -116,6 +116,28 @@
           "source_label": "Arrêté n°2026-05-21-002 (23 juin 2026)"
         }
       ]
+    },
+    {
+      "slug": "gelinotte-bois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 8 novembre 2026. Plan de chasse obligatoire (rappel : plan de chasse fixé à 0 dans le département)",
+          "source_url": "https://www.jura.gouv.fr/index.php/contenu/telechargement/36609/272505/file/AP%20ouverture%20cl%C3%B4ture%20chasse%202026-2027.pdf",
+          "source_label": "Arrêté n°2026-05-21-002 (23 juin 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 1er juillet 2026 au 28 février 2027 ; du 1er au 30 juin 2027 sur autorisation FDCJ, à l'approche ou à l'affût uniquement. Avant la date d'ouverture générale : uniquement sur autorisation préfectorale (art. R424-8 du CE), à l'approche ou à l'affût ; après l'ouverture générale : tous modes de chasse autorisés, battue en réserve possible. Plan de chasse obligatoire",
+          "source_url": "https://www.jura.gouv.fr/index.php/contenu/telechargement/36609/272505/file/AP%20ouverture%20cl%C3%B4ture%20chasse%202026-2027.pdf",
+          "source_label": "Arrêté n°2026-05-21-002 (23 juin 2026)"
+        }
+      ]
     }
   ]
 }

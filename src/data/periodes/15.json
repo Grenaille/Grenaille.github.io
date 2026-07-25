@@ -139,6 +139,17 @@
           "source_label": "Arrêté préfectoral n°2026-111-DDT (19 juin 2026)"
         }
       ]
+    },
+    {
+      "slug": "mouflon-mediterraneen",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 28 février 2027, soumis à plan de chasse, chasse exclusivement à l'approche ou à l'affût et conformément au plan de tir adopté par le GIC des Monts du Cantal. Chasse sans auxiliaire (rabatteur ou chien), tir à balle obligatoire. Prélèvements à enregistrer chaque semaine dans l'application CYNEO",
+          "source_url": "https://www.cantal.gouv.fr/contenu/telechargement/25285/197217/file/AP_OuvertureCloture2026-2027_Signe.pdf",
+          "source_label": "Arrêté préfectoral n°2026-111-DDT (19 juin 2026)"
+        }
+      ]
     }
   ]
 }

@@ -72,6 +72,61 @@
           "source_label": "Arrêté préfectoral n°26-2026-06-25-00008, saison 2026-2027"
         }
       ]
+    },
+    {
+      "slug": "tetras-lyre",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Petit gibier de montagne. Ouvert du 20 septembre 2026 au 11 novembre 2026, pour les seuls titulaires d'un plan de chasse individuel dans les conditions d'exécution qu'il fixe. Carnet de prélèvement obligatoire conforme au modèle fourni par la FDC Drôme. Jours de chasse : au sein de la réserve naturelle des hauts plateaux du Vercors, dimanche et jours fériés uniquement ; hors réserve naturelle, mardi, jeudi, samedi, dimanche et jours fériés",
+          "source_url": "https://www.chasseurs-drome.fr/download_file/c4393ea5-76ea-4b54-9bba-194fb3244441/1185",
+          "source_label": "Arrêté préfectoral n°26-2026-06-25-00008, saison 2026-2027"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-variable",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Petit gibier de montagne. Ouvert du 20 septembre 2026 au 11 novembre 2026, les mardi, jeudi, samedi, dimanche et jours fériés. Soumis à prélèvement maximal autorisé (PMA) limité à un lièvre par chasseur et un plafond de cinq lièvres pour le département sur l'ensemble de la saison. Carnet de prélèvement obligatoire et marquage par languette autocollante et millésimée délivrés par la FDC Drôme, avec enregistrement en temps réel de chaque prélèvement sur l'application Géochasse",
+          "source_url": "https://www.chasseurs-drome.fr/download_file/c4393ea5-76ea-4b54-9bba-194fb3244441/1185",
+          "source_label": "Arrêté préfectoral n°26-2026-06-25-00008, saison 2026-2027"
+        }
+      ]
+    },
+    {
+      "slug": "chamois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Grand gibier soumis à plan de chasse, chasse autorisée pour les seuls bénéficiaires d'un plan de chasse individuel. Ouvert du 13 septembre 2026 au 11 novembre 2026 puis du 6 décembre 2026 au 28 février 2027, en approche individuelle ou à l'affût sans chien, tous les jours. Tir à balle obligatoire ; saisie des fiches de tir sous 8 jours sur l'application Géochasse",
+          "source_url": "https://www.chasseurs-drome.fr/download_file/c4393ea5-76ea-4b54-9bba-194fb3244441/1185",
+          "source_label": "Arrêté préfectoral n°26-2026-06-25-00008, saison 2026-2027"
+        }
+      ]
+    },
+    {
+      "slug": "mouflon-mediterraneen",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Espèce citée parmi le grand gibier soumis à plan de chasse (cerf élaphe, chevreuil, chamois, mouflon, daim). Chasse autorisée pour les seuls bénéficiaires d'un plan de chasse individuel, dans les conditions d'exécution fixées par celui-ci. Tir à balle obligatoire pour les armes à feu",
+          "source_url": "https://www.chasseurs-drome.fr/download_file/c4393ea5-76ea-4b54-9bba-194fb3244441/1185",
+          "source_label": "Arrêté préfectoral n°26-2026-06-25-00008, saison 2026-2027"
+        }
+      ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Grand gibier soumis à plan de chasse, chasse autorisée pour les seuls bénéficiaires d'un plan de chasse individuel. Cerf élaphe et daim : approche individuelle ou affût sans chien tous les jours du 1er septembre au 12 septembre 2026 (selon les modalités de l'arrêté individuel de plan de chasse), puis tous modes de chasse autorisés tous les jours du 13 septembre 2026 au 28 février 2027 (registre de battue obligatoire délivré par la FDC Drôme). Tir à balle obligatoire",
+          "source_url": "https://www.chasseurs-drome.fr/download_file/c4393ea5-76ea-4b54-9bba-194fb3244441/1185",
+          "source_label": "Arrêté préfectoral n°26-2026-06-25-00008, saison 2026-2027"
+        }
+      ]
     }
   ]
 }

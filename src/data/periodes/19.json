@@ -138,6 +138,17 @@
           "source_label": "Arrêté préfectoral du 13 mai 2026 (Corrèze)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13/09/2026 au 28/02/2027, chasse autorisée tous les jours sauf mardis et vendredis, uniquement au détenteur d'un plan de chasse. Compte comme l'une des six espèces de grand gibier (chevreuil, cerf élaphe, daim, chamois, sanglier) dont le prélèvement doit être déclaré à la FDC19 dans la semaine suivant le tir",
+          "source_url": "https://www.correze.gouv.fr/index.php/contenu/telechargement/34694/245388/file/arrete_ouv_ferm_2026-2027.pdf",
+          "source_label": "Arrêté préfectoral du 13 mai 2026 (Corrèze)"
+        }
+      ]
     }
   ]
 }

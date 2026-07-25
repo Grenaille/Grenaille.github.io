@@ -127,6 +127,17 @@
           "source_label": "Arrêté n°DDTSEEF-90-2026-05-19-00008 (19 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 31 janvier 2027, chasse réservée aux détenteurs d'un plan de chasse individuel, animaux prélevés munis d'un bracelet réglementaire. Chasse à l'approche et en battue uniquement les jeudis, samedis, dimanches et jours fériés ; à l'affût tous les jours. Tir uniquement à l'arc ou à balle",
+          "source_url": "https://www.mairie-de-cravanche.fr/wp-content/uploads/2026_05_19_AP_ouverture_fermeture_chasse_2026_2027.pdf",
+          "source_label": "Arrêté n°DDTSEEF-90-2026-05-19-00008 (19 mai 2026)"
+        }
+      ]
     }
   ]
 }

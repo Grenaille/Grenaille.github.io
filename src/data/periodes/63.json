@@ -111,6 +111,28 @@
           "source_label": "Arrêté préfectoral n°20261070 (23 juin 2026)"
         }
       ]
+    },
+    {
+      "slug": "chamois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ouverture générale jusqu'au 28 février 2027 au soir. Tir à balle obligatoire ou à l'arc, chasse à l'approche uniquement, chasse en temps de neige autorisée, déclaration obligatoire des prélèvements dans les 24h à la FDC63",
+          "source_url": "https://www.puy-de-dome.gouv.fr/contenu/telechargement/33807/270003/file/AP1070-2026-ouverture_cloture_annexe_signe.pdf",
+          "source_label": "Arrêté préfectoral n°20261070 (23 juin 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ouverture générale jusqu'au 28 février 2027 au soir. Tir à balle obligatoire ou à l'arc, chasse en temps de neige autorisée, déclaration obligatoire des prélèvements dans les 24h à la FDC63",
+          "source_url": "https://www.puy-de-dome.gouv.fr/contenu/telechargement/33807/270003/file/AP1070-2026-ouverture_cloture_annexe_signe.pdf",
+          "source_label": "Arrêté préfectoral n°20261070 (23 juin 2026)"
+        }
+      ]
     }
   ]
 }

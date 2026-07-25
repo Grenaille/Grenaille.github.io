@@ -22,5 +22,29 @@
       "url_pdf": "https://www.ain.gouv.fr/contenu/telechargement/35534/248012/file/20260402ApPrelevementsMiniMaxiGrandGibier2026-2027SigneRaa.pdf",
       "statut": "signé"
     }
+  ],
+  "especes": [
+    {
+      "slug": "chamois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 1er septembre 2026 au 12 septembre 2026 (avant l'ouverture générale), puis de l'ouverture générale à la fermeture générale (13 septembre 2026 au 28 février 2027). Chasse à tir, à l'approche ou à l'affût ; la chasse en groupe est limitée à trois participants maximum. Espèce soumise à plan de chasse ; seuls les détenteurs d'une décision d'attribution peuvent prélever, déclaration des prélèvements dans les 48 heures ; tir à balles obligatoire",
+          "source_url": "https://www.ain.gouv.fr/contenu/telechargement/35532/248002/file/20260327ApCampagneCynegetique2026-2027CompletSigneRaa.pdf",
+          "source_label": "Arrêté préfectoral relatif à la campagne cynégétique 2026-2027 dans le département de l'Ain (signé 27 mars 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 1er juillet 2026 au 12 septembre 2026 sur autorisation préfectorale (uniquement en battue, à l'affût ou à l'approche), puis de l'ouverture générale à la fermeture générale (13 septembre 2026 au 28 février 2027) en battue, à l'affût ou à l'approche. Espèce soumise à plan de chasse ; seuls les détenteurs d'une décision d'attribution peuvent prélever, déclaration des prélèvements dans les 48 heures ; tir à balles obligatoire",
+          "source_url": "https://www.ain.gouv.fr/contenu/telechargement/35532/248002/file/20260327ApCampagneCynegetique2026-2027CompletSigneRaa.pdf",
+          "source_label": "Arrêté préfectoral relatif à la campagne cynégétique 2026-2027 dans le département de l'Ain (signé 27 mars 2026)"
+        }
+      ]
+    }
   ]
 }

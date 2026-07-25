@@ -144,6 +144,28 @@
           "source_label": "Arrêté préfectoral n°DT-26-0306 (13 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Réservé aux détenteurs de décisions individuelles de plan de chasse. Ouverture anticipée du 1er août au 12 septembre 2026 : tir sélectif des daims mâles adultes uniquement, à l'approche ou à l'affût sur autorisation préfectorale individuelle, sans chien ni rabatteur. Ouverture générale (chevreuil, daim, mouflon) du 13 septembre 2026 au 28 février 2027, avec registre de chasse tenu par le détenteur du droit de chasse. Tout animal prélevé doit être muni d'un dispositif de marquage",
+          "source_url": "https://www.loire.gouv.fr/contenu/telechargement/23940/174771/file/2026_05_13_AP_dates_modalites_26_27_RAA.pdf",
+          "source_label": "Arrêté préfectoral n°DT-26-0306 (13 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "mouflon-mediterraneen",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Réservé aux détenteurs de décisions individuelles de plan de chasse. Ouverture générale (chevreuil, daim, mouflon) du 13 septembre 2026 au 28 février 2027, avec registre de chasse tenu par le détenteur du droit de chasse. Tout animal prélevé doit être muni d'un dispositif de marquage",
+          "source_url": "https://www.loire.gouv.fr/contenu/telechargement/23940/174771/file/2026_05_13_AP_dates_modalites_26_27_RAA.pdf",
+          "source_label": "Arrêté préfectoral n°DT-26-0306 (13 mai 2026)"
+        }
+      ]
     }
   ]
 }

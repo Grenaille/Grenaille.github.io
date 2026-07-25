@@ -127,6 +127,17 @@
           "source_label": "Arrêté n° DDT-SEB-2026-152-0005 (1er juin 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Soumis à plan de chasse. Ouverture générale du 13 septembre 2026 au 28 février 2027, chasses individuelles et collectives. Tout grand gibier prélevé doit être déclaré à la FDC48 via l'application Géochasse à l'issue de la journée de chasse",
+          "source_url": "https://chasseurdelozere.com/wp-content/uploads/2026/06/arrete_chasse_2026_signe.pdf",
+          "source_label": "Arrêté n° DDT-SEB-2026-152-0005 (1er juin 2026)"
+        }
+      ]
     }
   ]
 }

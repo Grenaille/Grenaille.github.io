@@ -131,6 +131,39 @@
           "saison": "2025-2026"
         }
       ]
+    },
+    {
+      "slug": "marmotte",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "De l'ouverture générale (13 septembre 2026) au 11 novembre 2026. Seul le tir à balle ou à l'arc est autorisé ; le déterrage de la marmotte est interdit. Chasse interdite sur certains territoires (voir article dédié)",
+          "source_url": "https://www.haute-savoie.gouv.fr/contenu/telechargement/51159/323602/file/ARP0482_2026_ouverture-cloture.pdf",
+          "source_label": "Arrêté n° DDT-2026-0482 d'ouverture et de clôture générale de la chasse, campagne 2026-2027 (signé 26 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "gelinotte-bois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre 2026 au 11 novembre 2026. Le tir à balle est interdit. Chasse interdite sur le territoire de certaines communes (Chaumont et autres, voir article dédié)",
+          "source_url": "https://www.haute-savoie.gouv.fr/contenu/telechargement/51159/323602/file/ARP0482_2026_ouverture-cloture.pdf",
+          "source_label": "Arrêté n° DDT-2026-0482 d'ouverture et de clôture générale de la chasse, campagne 2026-2027 (signé 26 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-variable",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre 2026 au 11 novembre 2026. Le tir à balle est interdit",
+          "source_url": "https://www.haute-savoie.gouv.fr/contenu/telechargement/51159/323602/file/ARP0482_2026_ouverture-cloture.pdf",
+          "source_label": "Arrêté n° DDT-2026-0482 d'ouverture et de clôture générale de la chasse, campagne 2026-2027 (signé 26 mai 2026)"
+        }
+      ]
     }
   ]
 }

@@ -134,6 +134,28 @@
           "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
         }
       ]
+    },
+    {
+      "slug": "cerf-sika",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Grands cervidés (cerf élaphe et cerf sika), soumis à plan de chasse. Du 1er octobre 2026 au 28 février 2027 : tir individuel à l'approche et à l'affût, tir à balles obligatoire en tout temps. Du 17 octobre 2026 au 28 février 2027 : tir individuel à l'approche, à l'affût ou en battue",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Grand gibier soumis à plan de chasse. Chasse en battue du 17 octobre 2026 au 28 février 2027 (dans le cadre du chevreuil, tir individuel à l'approche, à l'affût ou en battue). Chasse du daim mâle du 1er juin au 11 septembre 2027 : tir individuel à l'approche et à l'affût pour les bénéficiaires d'une autorisation préfectorale individuelle, tir à balles obligatoire en tout temps (période 2026 prévue par l'arrêté préfectoral n°12-2025-07-11-00012 du 11 juillet 2025)",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aveyron/documents/ArrA-tA-12-2026-07-16-00005-ou.pdf",
+          "source_label": "Arrêté préfectoral n°12-2026-07-16-005 (16 juillet 2026)"
+        }
+      ]
     }
   ]
 }

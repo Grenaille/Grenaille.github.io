@@ -116,6 +116,17 @@
           "source_label": "Arrêté préfectoral n°DDT-SEF 2026-139 (22 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 28 février 2027 au soir, espèce soumise à plan de chasse. La chasse du daim pourra se pratiquer en battue, à l'approche ou à l'affût. Le tir se pratique à l'arc ou par arme à feu obligatoirement à balle, quel que soit le mode de chasse",
+          "source_url": "https://www.haute-loire.gouv.fr/contenu/telechargement/17674/120750/file/ArreteSigne_OuvertureChasse_2026-2027_V04.pdf",
+          "source_label": "Arrêté préfectoral n°DDT-SEF 2026-139 (22 mai 2026)"
+        }
+      ]
     }
   ]
 }
