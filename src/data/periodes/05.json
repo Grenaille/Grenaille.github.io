@@ -183,6 +183,39 @@
           "source_label": "Arrêté préfectoral n°05-2026-05-26-00001 (26 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ouverture générale du 13 septembre 2026 au 31 janvier 2027, tous modes de chasse, tous les jours sauf le vendredi. Soumis à plan de chasse (se référer à la décision fédérale individuelle d'attribution du plan de chasse)",
+          "source_url": "https://www.fdc05.com/medias/2026/06/260526-ap-ouv-fermeture.pdf",
+          "source_label": "Arrêté préfectoral n°05-2026-05-26-00001 (26 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "marmotte",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Marmotte des Alpes : ouverture générale du 13 septembre au 11 novembre 2026, chasse autorisée les lundi, mercredi, samedi, dimanche et jours fériés (sauf le vendredi). Déterrage interdit. Carnet de prélèvement nominatif obligatoire",
+          "source_url": "https://www.fdc05.com/medias/2026/06/260526-ap-ouv-fermeture.pdf",
+          "source_label": "Arrêté préfectoral n°05-2026-05-26-00001 (26 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-variable",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ouverture générale du 13 septembre au 11 novembre 2026, chasse autorisée les lundi, mercredi, samedi, dimanche et jours fériés (sauf le vendredi). Prélèvement limité à une pièce par jour et par chasseur. Carnet de prélèvement nominatif obligatoire",
+          "source_url": "https://www.fdc05.com/medias/2026/06/260526-ap-ouv-fermeture.pdf",
+          "source_label": "Arrêté préfectoral n°05-2026-05-26-00001 (26 mai 2026)"
+        }
+      ]
     }
   ]
 }

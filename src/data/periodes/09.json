@@ -138,6 +138,17 @@
           "source_label": "Arrêté préfectoral DDT/SER (19 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ouverture générale (zone de montagne : 20 septembre 2026) au 28 février 2027. Espèce soumise à plan de chasse. Ouverture anticipée : la chasse à l'affût ou à l'approche individuelle et sans chien du daim peut s'exercer à partir du 1er juin 2026, dans le cadre d'une autorisation préfectorale individuelle, jusqu'à l'ouverture générale.",
+          "source_url": "https://www.ariege.gouv.fr/index.php/contenu/telechargement/34753/236315/file/2026_ap_ouv_clot_chasse_2026_2027vf_version_Sign%C3%A9.pdf",
+          "source_label": "Arrêté préfectoral relatif à l'ouverture et la clôture de la chasse pour la campagne 2026/2027 dans le département de l'Ariège (signé le 19 mai 2026, zone de plaine ; zone de montagne : 20 septembre 2026)"
+        }
+      ]
     }
   ]
 }

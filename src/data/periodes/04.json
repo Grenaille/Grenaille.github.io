@@ -172,6 +172,50 @@
           "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Pour les seuls bénéficiaires du plan de chasse, selon les prescriptions de la décision d'attribution individuelle. À balle ou à l'arc, du 1er septembre 2026 au 28 février 2027 au soir, tous les jours sauf vendredi (chasse autorisée tous les jours fériés). Possibilité de tirer un faon avec un bracelet CEM. Le carnet de battue est obligatoire pour les battues toute la saison",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "marmotte",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre au 27 septembre 2026 au soir. Le dimanche uniquement, avec un PMA de 1 marmotte/jour/chasseur. Carnet de prélèvement obligatoire",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "gelinotte-bois",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre au 11 novembre 2026 au soir. Jeudis, samedis, dimanches et jours fériés, pour les seuls bénéficiaires d'un plan de chasse et selon les prescriptions des décisions individuelles d'attributions. Carnet de prélèvement obligatoire",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "lievre-variable",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 20 septembre au 11 novembre 2026 au soir. Jeudis, samedis, dimanches et jours fériés. Carnet de prélèvement obligatoire. Plan de gestion de 1 lièvre/jour/chasseur et 3 lièvres/saison/chasseur",
+          "source_url": "https://www.alpes-de-haute-provence.gouv.fr/contenu/telechargement/46261/274662/file/ap_ouverture_fermeture_chasse_2026_2027_20072026.pdf",
+          "source_label": "Arrêté préfectoral n°2026-201-017 (20 juillet 2026)"
+        }
+      ]
     }
   ]
 }

@@ -182,6 +182,17 @@
           "source_label": "Arrêté préfectoral n° DDTM-SAFEB-UFCB-2026-064 (29 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 28 février 2027, tous les jours. Espèce soumise à plan de chasse obligatoire. Tir à balle ou à l'arc obligatoires (tir à balle obligatoire sur les territoires domaniaux). Ouverture anticipée à l'affût ou à l'approche du 1er juin au 12 septembre 2026.",
+          "source_url": "https://www.chasse-nature-occitanie.fr/aude/documents/AP-ouv-clot-2026-2027-signA-.pdf",
+          "source_label": "Arrêté préfectoral n° DDTM-SAFEB-UFCB-2026-064 relatif à l'ouverture et à la clôture de la chasse pour la campagne 2026-2027 (signé à Carcassonne le 29 mai 2026 par le préfet Alain Bucquet)"
+        }
+      ]
     }
   ]
 }

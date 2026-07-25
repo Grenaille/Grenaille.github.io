@@ -160,6 +160,17 @@
           "source_label": "Arrêté préfectoral DDT (27 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 28 février 2027. Plan de chasse légal attribué dans les enclos. Tir à balles ou à l'arc.",
+          "source_url": "https://www.haute-garonne.gouv.fr/index.php/contenu/telechargement/63384/453184/file/20260527-AP-ouverture-cloture-chasse-sign%C3%A9.pdf",
+          "source_label": "Arrêté portant ouverture et clôture de la chasse pour la campagne 2026-2027 dans le département de la Haute-Garonne (signé à Toulouse le 27 mai 2026 par le préfet Pierre-André Durand)"
+        }
+      ]
     }
   ]
 }

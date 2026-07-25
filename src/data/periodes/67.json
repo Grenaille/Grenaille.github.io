@@ -122,6 +122,17 @@
           "source_label": "Arrêté préfectoral fixant les périodes de chasse du gibier sédentaire 2026-2027 (9 avril 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Daim mâle : du 1er août 2026 (matin) au 1er février 2027 (soir). Daim faon et femelle (daine) : ouverture générale (23 août 2026) au 1er février 2027 (soir)",
+          "source_url": "https://www.bas-rhin.gouv.fr/contenu/telechargement/61046/435837/file/AP_P%C3%A9riode_Chasse_2026-2027.pdf",
+          "source_label": "Arrêté préfectoral fixant les périodes de chasse du gibier sédentaire 2026-2027 (9 avril 2026)"
+        }
+      ]
     }
   ]
 }

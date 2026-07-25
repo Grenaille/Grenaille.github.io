@@ -133,6 +133,28 @@
           "source_label": "Arrêté n°149/2026/DDT (19 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ongulés de parc de chasse (daim, cerf sika et mouflon). Ouverture spécifique : tir tous sexes/âges du 1er juin au 19 septembre, uniquement en chasse individuelle et silencieuse (sur notification individuelle). Ouverture générale : du 20 septembre au 28 février, en battue et chasse individuelle et silencieuse. Seuls les bénéficiaires d'un plan de chasse sont autorisés à chasser ce type de gibier",
+          "source_url": "https://www.vosges.gouv.fr/contenu/telechargement/32165/252040/file/AP_149_2026_planchasse_ouvert_fermeture.pdf",
+          "source_label": "Arrêté n°149/2026/DDT (19 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "cerf-sika",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Ongulés de parc de chasse (daim, cerf sika et mouflon). Ouverture spécifique : tir tous sexes/âges du 1er juin au 19 septembre, uniquement en chasse individuelle et silencieuse (sur notification individuelle). Ouverture générale : du 20 septembre au 28 février, en battue et chasse individuelle et silencieuse. Seuls les bénéficiaires d'un plan de chasse sont autorisés à chasser ce type de gibier",
+          "source_url": "https://www.vosges.gouv.fr/contenu/telechargement/32165/252040/file/AP_149_2026_planchasse_ouvert_fermeture.pdf",
+          "source_label": "Arrêté n°149/2026/DDT (19 mai 2026)"
+        }
+      ]
     }
   ]
 }

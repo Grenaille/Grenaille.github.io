@@ -117,6 +117,28 @@
           "source_label": "Arrêté n°70-2026-05-18-00009 (18 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 28 février 2027 ; du 1er juin au 12 septembre 2026, chasse du daim à l'approche ou à l'affût sur autorisation préfectorale individuelle. Seuls les détenteurs d'un plan de chasse individuel peuvent chasser ; tir à balle ou à l'arc uniquement. Espèce non considérée comme souhaitable sur le département (SDGC 2024-2030) : les demandes d'attribution et de réattribution de bracelets peuvent être examinées en cours de saison par la FDC70",
+          "source_url": "https://www.fdchasseurs70.fr/fichiers-public/?upf=dl&id=8800",
+          "source_label": "Arrêté n°70-2026-05-18-00009 (18 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "cerf-sika",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 13 septembre 2026 au 28 février 2027 ; du 1er au 12 septembre 2026, chasse à l'approche ou à l'affût sur autorisation préfectorale individuelle. Seuls les détenteurs d'un plan de chasse individuel peuvent chasser ; tir à balle ou à l'arc uniquement. Espèce non considérée comme souhaitable sur le département (SDGC 2024-2030) : les demandes d'attribution et de réattribution de bracelets peuvent être examinées en cours de saison par la FDC70",
+          "source_url": "https://www.fdchasseurs70.fr/fichiers-public/?upf=dl&id=8800",
+          "source_label": "Arrêté n°70-2026-05-18-00009 (18 mai 2026)"
+        }
+      ]
     }
   ]
 }

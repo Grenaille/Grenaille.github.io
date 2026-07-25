@@ -122,6 +122,28 @@
           "source_label": "Arrêté préfectoral fixant les dates de chasse 2026-2027 (27 avril 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Daim mâle : du 1er août 2026 (matin) au 1er février 2027 (soir). Daim femelle et faon : ouverture générale (23 août 2026) au 1er février 2027 (soir)",
+          "source_url": "https://drive.google.com/uc?export=download&id=1PwDrIAVpi8Ktyhs6b1mUpJk55-jZ4TH5",
+          "source_label": "Arrêté préfectoral fixant les dates de chasse 2026-2027 (27 avril 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "cerf-sika",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Cerf sika femelle et faon : ouverture et fermeture générales (23 août 2026 au matin au 1er février 2027 au soir)",
+          "source_url": "https://drive.google.com/uc?export=download&id=1PwDrIAVpi8Ktyhs6b1mUpJk55-jZ4TH5",
+          "source_label": "Arrêté préfectoral fixant les dates de chasse 2026-2027 (27 avril 2026)"
+        }
+      ]
     }
   ]
 }

@@ -194,6 +194,28 @@
           "source_label": "Arrêté DDTM-SEAFEN-AP n°2026-064 (18 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "lievre-variable",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Petit gibier de montagne. Du 13 septembre au 27 septembre 2026 : chasse les mercredis et dimanches uniquement. Du 28 septembre au 11 novembre 2026 : chasse les lundis, mercredis, samedis, dimanches et jours fériés. Carnet de prélèvement obligatoire. Prélèvement d'un animal par jour et par chasseur (Schéma départemental de gestion cynégétique)",
+          "source_url": "http://www.fdc06.fr/wp-content/uploads/2026/06/ARRETE_OUVERTURE_FERMETURE_CHASSE_20262027.pdf",
+          "source_label": "Arrêté DDTM-SEAFEN-AP n°2026-064 (18 mai 2026)"
+        }
+      ]
+    },
+    {
+      "slug": "marmotte",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Marmotte des Alpes. Du 13 septembre au 11 octobre 2026, chasse uniquement les samedis, dimanches, mercredis et jours fériés. Carnet de prélèvement obligatoire. Prélèvement de deux animaux par jour et par chasseur (Schéma départemental de gestion cynégétique). Chasse interdite sur les communes d'Amirat, Collongues, Sallagriffon, Aiglun, Les Mujouls, Gars, Briançonnet, Saint-Auban, Le Mas, Andon, Valderoure, Séranon, Caille, Sigale, La Roque-en-Provence, Conségudes, Les Ferres, Bouyon, Bézaudun, Coursegoules, Gréolières, Cipières, Caussols, Courmes et Gourdon",
+          "source_url": "http://www.fdc06.fr/wp-content/uploads/2026/06/ARRETE_OUVERTURE_FERMETURE_CHASSE_20262027.pdf",
+          "source_label": "Arrêté DDTM-SEAFEN-AP n°2026-064 (18 mai 2026)"
+        }
+      ]
     }
   ]
 }

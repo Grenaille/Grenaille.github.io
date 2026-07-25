@@ -144,6 +144,17 @@
           "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 (29 mai 2026)"
         }
       ]
+    },
+    {
+      "slug": "daim",
+      "faits": [
+        {
+          "label": "Dates de chasse",
+          "detail": "Du 1er juin 2026 au 28 février 2027, en battue, à l'approche ou à l'affût.",
+          "source_url": "https://www.fdc66.fr/wp-content/uploads/2026/06/AP-DDTM-SNAF-2026149-0001-ouverture-cloture-chasse-2026-2027.pdf",
+          "source_label": "Arrêté préfectoral n°DDTM/SNAF/2026-149-0001 relatif à l'ouverture et à la clôture de la chasse pour la saison 2026/2027 dans le département des Pyrénées-Orientales (signé le 29 mai 2026)"
+        }
+      ]
     }
   ]
 }
