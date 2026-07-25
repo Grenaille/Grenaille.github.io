@@ -110,6 +110,15 @@ for (const e of especesDuTerritoire) {
   especeViews.push({ nom: e.nom, slug, svg, categorie: (e as any).categorie ?? 'autre' });
   if (!slug) continue;
 
+  // ESOD (« nuisibles ») : régime de destruction distinct. Le classement du groupe 2 (renard,
+  // corvidés, mustélidés…) est fixé par un arrêté ministériel triennal — celui de 2023-2026 a
+  // expiré le 1er juillet 2026 et le suivant (2026-2029) n'est pas encore publié. On affiche donc
+  // un statut honnête plutôt qu'une donnée inventée.
+  if ((e as any).categorie === 'esod') {
+    especeRows.push({ slug, titre: `${e.nom} — Statut`, valeur: "Espèce susceptible d'occasionner des dégâts (ESOD). Classement du groupe 2 en cours de renouvellement pour 2026-2029 (arrêté ministériel non encore publié à ce jour).", refs: [] });
+    continue;
+  }
+
   const data = especeParDepartement.get(slug);
   const faits = data?.faits ?? [];
   const passage = OISEAUX_DE_PASSAGE[slug];
@@ -222,6 +231,7 @@ const ORDRE_CATEGORIES: [string, string][] = [
   ['gibier de montagne', 'Gibier de montagne'],
   ['oiseau de passage', 'Oiseaux de passage'],
   ["gibier d'eau", "Gibier d'eau"],
+  ['esod', 'ESOD'],
   ["gibier d'outre-mer", "Gibier d'outre-mer"],
 ];
 const groupes = ORDRE_CATEGORIES

@@ -282,6 +282,70 @@
       "categorie": "gibier d'eau"
     },
     {
+      "nom": "Renard roux",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Fouine",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Martre des pins",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Putois d'Europe",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Belette d'Europe",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Corneille noire",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Corbeau freux",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Pie bavarde",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Geai des chênes",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Étourneau sansonnet",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Ragondin",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Rat musqué",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Chien viverrin",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Vison d'Amérique",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Raton laveur",
+      "categorie": "esod"
+    },
+    {
+      "nom": "Bernache du Canada",
+      "categorie": "esod"
+    },
+    {
       "nom": "Tangue",
       "categorie": "gibier d'outre-mer",
       "territoire": "La Réunion"
